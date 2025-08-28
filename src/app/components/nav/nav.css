@@ -1,0 +1,54 @@
+
+
+
+
+
+.logo{
+    width: 30%;
+}
+
+nav{
+    color: var(--font-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary);
+    border-bottom: 1px solid rgba(99, 99, 99, 0.13);
+    z-index: 1;
+}
+
+.routes{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.quote{
+    width: fit-content;
+    background-color: var(--secondary);
+    padding: 5px 20px;
+    border-radius: 25px;
+    color: var(--primary);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+li{
+    list-style: none;
+    position: relative;
+}
+
+li::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    background-color: var(--secondary);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+li:hover::before{
+    width: 100%;
+}
