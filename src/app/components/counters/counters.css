@@ -1,0 +1,41 @@
+
+:root{
+    --c-size: 3rem;
+    --w-size: 0.7rem;
+}
+
+.counters{
+    background-color: var(--primary);
+}
+
+.counter-stack{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+    align-items: center;
+    height: 20vh;
+    margin: 0 40px;
+    background-color: transparent;
+}
+
+.counters .projects, .percent, .date, .clients, span{
+    font-size: var(--c-size);
+    color: var(--font-color);
+    font-weight: 700;
+    font-family: var(--bold4);
+    text-align: center;
+}
+
+.projects, .percent, .date, .clients, h5{
+    font-size: var(--w-size);
+    color: var(--dim-color);
+    font-family: var(--para);
+}
+
+
+.count-up-text{
+    color: var(--secondary);
+    font-size: var(--c-size);
+    font-weight: 700;
+
+}
