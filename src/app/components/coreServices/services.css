@@ -1,0 +1,224 @@
+.services-container{
+    height: fit-content;
+    padding: 40px;
+    background-color: var(--bg-content);
+}
+
+
+.services-container h4{
+    font-family: var(--para);
+}
+
+h4{
+    font-family: var(--para);
+}
+
+header{
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.head .faIcon{
+    color: var(--secondary);
+    font-size: 2rem;
+    margin-right: 10px;
+    &:hover{
+        transform: translate(2px,2px);
+    }
+}
+
+.head span{
+    font-size: 2rem;
+    font-family: var(--bold6);
+    font-weight: 600;
+}
+
+.service1,.service2{
+    border: 1px solid rgba(177, 177, 177, 0.541);
+    margin: 0 20px;
+    padding: 20px;border-radius: 10px;
+    color: var(--font-color);
+    width: 500px;
+    background-color: var(--primary);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:hover{
+        box-shadow: 2px 2px 10px 0px rgba(128, 128, 128, 0.473) ;
+        transform: translate(2px,-2px);
+        transform: scale(1.05);
+        
+    }
+}
+
+.service1 p,.service2 p{
+    margin: 15px 0 ;
+    text-align: left;
+}
+
+.service1 li,.service2 li{
+    color: orange;
+    list-style: none;
+    margin-bottom: 7px;
+    
+}
+
+li span{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--font-color);
+    font-family: var(--para);
+    font-weight: 500;
+}
+
+.why-content .quality{
+    display: flex;
+    gap: 5%;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+}
+
+
+
+/* .why-content h1{
+    color: var(--font-color);
+    font-weight: 700;text-align: center;
+    font-size:2rem;
+    margin-bottom: 40px;
+    font-family: var(--bold6);
+
+} */
+
+.why-content{
+    padding: 40px;
+}
+
+.quality div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quality div .faIcon{
+    font-size: 2rem;
+    background-color: var(--logo-bg);
+    padding: 20px;
+    color: var(--secondary);
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.quality div h5{
+    color: var(--font-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.quality div p{
+    color: var(--dim-font);
+    margin: 10px;
+}
+
+
+.feedback-container{
+    color: var(--font-color);
+    text-align: center;
+    background-color: var(--bg-content);
+    padding: 50px;
+}
+
+.feedbacks{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.feedback{
+    text-align: left;
+    background-color: var(--primary);
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 2px 2px 10px 0px rgba(128, 128, 128, 0.473) ;
+    &:hover{
+        transform: translate(2px,-2px);
+        transform: scale(1.05);
+        
+    }
+    
+}
+
+.feedbacks p{
+    margin: 0;
+    text-align: left;
+}
+
+.feedback h5{
+    color: var(--font-color);
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.feedback div{
+    margin-bottom: 10px;
+}
+
+.feedback div .star{
+    font-size: 20px;
+}
+
+.main-contact{
+    color: var(--primary);
+    text-align: center;
+    background-color: var(--secondary);
+    padding: 20px 20px 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contact h1{
+    color: var(--primary);
+}
+
+.main-contact button{
+    background-color: var(--primary);
+    color: var(--font-color);
+    width: 100%;
+    border: none;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    &:hover{
+        box-shadow: 2px 2px 10px 0px rgb(128, 128, 128) ;
+        transform: translate(-2px,-2px);
+    }
+}
+
+
+
+
+
