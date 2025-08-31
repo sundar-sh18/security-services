@@ -1,0 +1,80 @@
+footer{
+    background-color: var(--footer-bg);
+}
+
+.footer-top{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    /* justify-content: space-evenly; */
+    gap: 10%;
+    color: var(--font-color);
+    padding: 50px 30px;
+}
+
+.footer-top h3{
+    font-size: 1.2rem;
+}
+
+
+.quick-links .links{
+    margin-bottom: 10px;
+    transition: all 0.1s ease-in-out;
+    &:hover{
+        color: var(--secondary);
+        font-weight: 550;
+    }
+}
+
+.company-info .ph,.mail,.address{
+    margin-bottom: 10px;
+}
+
+.company-info .faIcons-footer{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.company-info img{
+    width: 150px;
+}
+
+.company-info{
+    width: 40%;
+}
+
+.company-info h4{
+    margin: 10px 0;
+}
+
+.company-info .address{
+    display: flex;
+}
+
+.quick-links, .services-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    list-style: none;
+}
+
+.footer-top h3{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.services-list li{
+    margin-bottom: 10px;
+}
+footer .line{
+    background-color: rgba(128, 128, 128, 0.479);
+    height: 1px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+footer h6{
+    color: var(--font-color);
+    text-align: center;
+    padding: 40px;
+}
