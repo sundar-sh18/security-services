@@ -1,0 +1,30 @@
+
+
+.head .icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.head span{
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+
+.labour-type .btns{
+    width: 100%;
+}
+
+.labour-type .btns button{
+    font-size: 0.8rem;
+    transition: all 0.1s ease-in-out;
+    &:hover{
+        
+        transform: scale(0.95);
+    }
+}
+
+
+
+
+
