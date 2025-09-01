@@ -1,0 +1,110 @@
+.story{
+    display: grid;
+    grid-template-columns: 60% 35%;
+    margin: 60px;
+    gap: 5%;
+    transition: all 0.5s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.story-about h1, .story-about p{
+    text-align: left;
+}
+
+.story-about p{
+    margin-top: 20px;
+}
+
+.core-values-container{
+    padding: 60px;
+    background-color: var(--bg-content);
+}
+
+.core-values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.core-values .values{
+    border: 1px solid var(--dim-color);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--primary);
+    &:hover{
+        box-shadow: 0px 5px 5px 0px rgba(128, 128, 128, 0.445) ;
+    }
+}
+
+.values .icon{
+    width: 40px;
+    height: 40px;
+
+    padding: 20px;
+    background-color: var(--dim-secondary);
+    border-radius: 100%;
+}
+
+.values h4{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.values p{
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.mission-vision{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mission, .vision{
+    border: 1px solid var(--dim-color);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--primary);
+    &:hover{
+        box-shadow: 0px 5px 5px 0px rgba(128, 128, 128, 0.445) ;
+    }
+    
+}
+
+.mission p, .vision p{
+    text-align: left;
+}
+
+.mission-vision .icon{
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:1200px){
+    .story{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .story-about{
+        margin-bottom: 60px;
+    }
+}
+
