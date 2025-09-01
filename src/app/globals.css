@@ -142,3 +142,8 @@ button:hover .arrow{
         left: 0px;
     }
 }
+
+.faIconsFooter{
+    margin-right: 10px;
+    font-size: 20px;
+}
