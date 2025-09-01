@@ -1,0 +1,29 @@
+
+.main{
+    height: 69vh;
+    color: var(--font-color);
+    background: linear-gradient(150Deg, #EDF4FE, rgb(231, 228, 221,0.568));
+    z-index: -1;
+}
+
+.main-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.arrow2{
+    color: red;
+}
+

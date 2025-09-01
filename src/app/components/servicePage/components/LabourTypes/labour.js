@@ -3,7 +3,7 @@ import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import { faHelmetSafety, faPeopleGroup, faTruckFast}  from "@fortawesome/free-solid-svg-icons";
-import './labour.css';
+import s from './labour.module.css';
 import Link from 'next/link';
 
 
@@ -49,18 +49,18 @@ export default function SecurityTypes(){
     return(
         <>
             {types.map((type)=>(
-                <div className="service1 service-type" key={type.id}>
-                    <div className="head">
+                <div className={s.serviceType} key={type.id}>
+                    <div className={s.head}>
                         {type.logo}
                         <span>{type.type}</span>
                     </div>
                     <p>{type.desc}</p>
                     <ul>
                     {type.services.map((service)=>(
-                            <li key={service}><FontAwesomeIcon icon={faCircleCheck} /><span>{service}</span></li>
+                            <li key={service}><FontAwesomeIcon icon={faCircleCheck} className={s.checkIcon}/><span>{service}</span></li>
                         ))}
                     </ul>
-                    <div className="btns">
+                    <div className={s.btns}>
                         <button>Starting from ₹{type.price} /hour</button><button><Link href="/contact">Get Quote</Link></button>
                     </div>
                 </div>

@@ -45,13 +45,13 @@ export default function Main(){
                                 scale: { type: "spring", visualDuration: 1, bounce: 0.5 }}} 
                             className='btns'>
                         <button>
-                            <Link href="/pricing">Get Free Quote<FontAwesomeIcon icon={faArrowRight} className='arrow1' /></Link>
+                            <Link href="/pricing">Get Free Quote<FontAwesomeIcon icon={faArrowRight} className='arrow' /></Link>
                         </button>
                         <button>
-                            <Link href="/services">View Services<FontAwesomeIcon icon={faArrowRight} className='arrow1' /></Link>
+                            <Link href="/services">View Services<FontAwesomeIcon icon={faArrowRight} className='arrow arrow2' /></Link>
                         </button>
                 </motion.div>
-            <div></div>
+            
             </div>
         </div>
         <Counters/>

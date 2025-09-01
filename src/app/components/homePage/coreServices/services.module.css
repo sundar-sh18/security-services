@@ -1,19 +1,17 @@
-.services-container{
+.servicesContainer{
     height: fit-content;
     padding: 40px;
     background-color: var(--bg-content);
 }
 
 
-.services-container h4{
+.h4{
     font-family: var(--para);
 }
 
-h4{
-    font-family: var(--para);
-}
 
-header{
+
+.header{
     color: var(--font-color);
     display: flex;
     flex-direction: column;
@@ -33,7 +31,7 @@ header{
     align-items: center;
 }
 
-.head .faIcon{
+.faIcon{
     color: var(--secondary);
     font-size: 2rem;
     margin-right: 10px;
@@ -48,7 +46,7 @@ header{
     font-weight: 600;
 }
 
-.service1,.service2{
+.service{
     border: 1px solid rgba(177, 177, 177, 0.541);
     margin: 0 20px;
     padding: 20px;border-radius: 10px;
@@ -64,19 +62,20 @@ header{
     }
 }
 
-.service1 p,.service2 p{
+.service p{
     margin: 15px 0 ;
     text-align: left;
 }
 
-.service1 li,.service2 li{
+.service li{
     color: orange;
     list-style: none;
     margin-bottom: 7px;
     
 }
 
-li span{
+
+.service li span{
     margin-left: 10px;
     font-size: 1rem;
     font-weight: normal;
@@ -85,10 +84,16 @@ li span{
     font-weight: 500;
 }
 
-.why-content .quality{
+
+
+.whyContent{
+    padding: 40px;
+}
+
+.whyContent .quality{
     display: flex;
     gap: 5%;
-    margin: 0 auto;
+    margin: 40px auto 20px auto;
     width: 70%;
     justify-content: center;
     align-items: center;
@@ -106,9 +111,7 @@ li span{
 
 } */
 
-.why-content{
-    padding: 40px;
-}
+
 
 .quality div{
     display: flex;
@@ -118,7 +121,7 @@ li span{
     text-align: center;
 }
 
-.quality div .faIcon{
+.quality .faIcon{
     font-size: 2rem;
     background-color: var(--logo-bg);
     padding: 20px;
@@ -128,20 +131,20 @@ li span{
     border-radius: 100px;
 }
 
-.quality div h5{
+.quality h5{
     color: var(--font-color);
     font-size: 1rem;
     font-weight: 600;
     margin-top: 10px;
 }
 
-.quality div p{
+.quality p{
     color: var(--dim-font);
     margin: 10px;
 }
 
 
-.feedback-container{
+.feedbackContainer{
     color: var(--font-color);
     text-align: center;
     background-color: var(--bg-content);
@@ -187,11 +190,11 @@ li span{
     margin-bottom: 10px;
 }
 
-.feedback div .star{
+.star{
     font-size: 20px;
 }
 
-.main-contact{
+.mainContact{
     color: var(--primary);
     text-align: center;
     background-color: var(--secondary);
@@ -202,11 +205,11 @@ li span{
     align-items: center;
 }
 
-.main-contact h1{
+.mainContact h1{
     color: var(--primary);
 }
 
-.main-contact button{
+.mainContact button{
     background-color: var(--primary);
     color: var(--font-color);
     width: 100%;

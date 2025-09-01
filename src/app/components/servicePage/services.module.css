@@ -1,6 +1,6 @@
 
 
-.service-page-container{
+.servicePageContainer{
     height: 40vh;
     padding: 0 50px;
     display: flex;
@@ -10,52 +10,58 @@
     background: linear-gradient(150Deg, #EDF4FE, rgb(231, 228, 221,0.568));
 }
 
-.service-page-container .h6{
+.servicePageContainer .h6{
     width: fit-content;
     text-align: center;
 }
 
-.security-types{
-
-    padding: 20px 0 60px 0;
+.securityTypes{
+    padding: 10px 0px 60px 0px;
 }
 
 
-.security-types h4{
+.securityTypes h4{
     text-align: center;
 }
 
-.types-security{
+.typesSecurity{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    gap: 30px;
+    padding: 0 20px;
 }
 
-.labour-types{
+.labourTypes{
     background-color: var(--bg-content);
     padding: 20px 0 60px 0;
 }
 
-.labour-types h4{
+.labourTypes h4{
     text-align: center;
 }
 
-.types-labour{
+.typesLabour{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    gap: 30px;
+    padding: 0 20px;
 }
 
-.service-process{
+.serviceProcess{
     text-align: center;
-    padding: 50px;
+    padding: 0 50px 50px;
 }
 
 .process{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5%;
     margin-top: 40px;
+    margin: 30px auto;
+    margin-top: 60px;
 }
 
 
@@ -86,7 +92,7 @@
     margin-top: 10px;
 }
 
-.custom-solution{
+.customSolution{
     background-color: var(--secondary);
     color: var(--primary);
     height: 40vh;
@@ -96,6 +102,12 @@
     align-items: center;
 }
 
-.custom-solution h1{
+.customSolution h1{
     color: var(--primary);
+}
+
+.btns button{
+    background-color: var(--primary);
+    color: var(--font-color);
+    padding: 10px ;
 }

@@ -1,8 +1,8 @@
-footer{
+.footer{
     background-color: var(--footer-bg);
 }
 
-.footer-top{
+.footerTop{
     display: flex;
     width: 70%;
     margin: 0 auto;
@@ -12,12 +12,12 @@ footer{
     padding: 50px 30px;
 }
 
-.footer-top h3{
+.footerTop h3{
     font-size: 1.2rem;
 }
 
 
-.quick-links .links{
+.quickLinks .links{
     margin-bottom: 10px;
     transition: all 0.1s ease-in-out;
     font-family: var(--para);
@@ -28,32 +28,34 @@ footer{
     }
 }
 
-.company-info .ph,.mail,.address{
+
+
+.companyInfo .ph,.mail, .address{
     margin-bottom: 10px;
 }
 
-.company-info .faIcons-footer{
+.companyInfo .faIcons-footer{
     margin-right: 10px;
     font-size: 20px;
 }
 
-.company-info img{
+.companyInfo img{
     width: 150px;
 }
 
-.company-info{
+.companyInfo{
     width: 40%;
 }
 
-.company-info h4{
+.companyInfo h4{
     margin: 10px 0;
 }
 
-.company-info .address{
+.companyInfo .address{
     display: flex;
 }
 
-.quick-links, .services-list{
+.quickLinks, .servicesList{
     display: flex;
     flex-direction: column;
     margin-top: 80px;
@@ -61,23 +63,24 @@ footer{
     
 }
 
-.footer-top h3{
+.footerTop h3{
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.services-list li{
+.servicesList li{
     margin-bottom: 10px;
     font-family: var(--para);
+    list-style: none;
 }
-footer .line{
+.footer .line{
     background-color: rgba(128, 128, 128, 0.479);
     height: 1px;
     width: 95%;
     margin: 0 auto;
 }
 
-footer h6{
+.footer h6{
     color: var(--font-color);
     text-align: center;
     padding: 40px;

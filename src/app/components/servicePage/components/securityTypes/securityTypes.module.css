@@ -1,0 +1,84 @@
+
+
+.head{display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.head span{font-family: var(--bold4);
+    color: var(--font-color);
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+}
+
+.head .icon{
+    font-size: 30px;
+}
+
+.serviceType{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--dim-color);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        box-shadow: 2px 3px 7px 0px var(--dim-color);
+    }
+    
+}
+
+.serviceType p{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.serviceType li{
+    margin-bottom: 5px ;
+    font-family: var(--para);
+}
+
+.serviceType .btns{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+
+.btns button{
+    background-color: var(--secondary);
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: var(--primary);
+    transition: all 0.1s ease-in-out;
+    border-radius: 100px;
+    margin-top: 20px;
+    &:hover{
+        
+        transform: scale(0.95);
+    }
+    
+}
+
+.btns button:last-child{
+    background-color: var(--primary);
+    color: var(--font-color);
+    border-radius: 100px;
+}
+
+.checkIcon{
+    color: orange;
+    margin-right: 10px;
+
+}
+
+
+
+
+

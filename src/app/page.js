@@ -1,7 +1,6 @@
 
 "use client"
-import Main from "./components/main/main";
-import "./globals.css";
+import Main from "./components/homePage/main/main";
 
 
 

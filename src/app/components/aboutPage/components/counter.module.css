@@ -1,0 +1,45 @@
+
+
+.counters{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.counters div{
+    border: 1px solid var(--dim-color);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+    padding: 0 20px 10px 20px;
+    &:hover{
+        box-shadow: 2px 3px 7px 0px rgba(163, 163, 163, 0.63) ;
+    }
+    
+}
+
+.countUpText{
+    color: var(--secondary);
+    font-size: var(--c-size);
+    font-size: 4rem;
+    font-weight: 700;
+     font-family: var(--bold4);
+}
+
+.span{
+    color: var(--font-color);
+    font-size: 2.5rem;
+    font-family: var(--bold5);
+}
+
+.h5{
+    font-family: var(--para);
+}
+
+.counterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
