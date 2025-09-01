@@ -15,9 +15,9 @@ export default function Footer() {
                     <div className={style.companyInfo}>
                         <img src="./logo1.svg" alt="Logo"/>
                         <h4>Your trusted partner for comprehensive security and labour services. We connect businesses with reliable, professional service providers across all industries.</h4>
-                        <div className={style.ph}><FontAwesomeIcon icon={faPhone} className={style.faIconsFooter}/>91+ 9113662500</div>
-                        <div className={style.mail}><FontAwesomeIcon icon={faEnvelope} className={style.faIconsFooter}/></div>
-                        <div className={style.address}><FontAwesomeIcon icon={faLocationDot} className={style.faIconsFooter}/><address>#37/8, Chikkanahalli Main Road, Opp. Basaveshwara Layout, Yelwala, Mysuru - 571130</address></div>
+                        <div className={style.ph}><FontAwesomeIcon icon={faPhone} className={`${style.faIconsFooter} faIconFooter`}/>91+ 9113662500</div>
+                        <div className={style.mail}><FontAwesomeIcon icon={faEnvelope} className={`${style.faIconsFooter} faIconFooter`}/></div>
+                        <div className={style.address}><FontAwesomeIcon icon={faLocationDot} className={`${style.faIconsFooter} faIconFooter`}/><address>#37/8, Chikkanahalli Main Road, Opp. Basaveshwara Layout, Yelwala, Mysuru - 571130</address></div>
                     </div>
                     <div className={style.quickLinks}>
                         <h3>Quick Links</h3>
