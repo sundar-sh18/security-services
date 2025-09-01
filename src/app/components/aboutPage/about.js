@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShield, faPeopleGroup, faMedal, faBullseye } from "@fortawesome/free-solid-svg-icons";
 import Counters from "./components/counter";
 import s from './about.module.css'
+import FooterAbove from "../footerAbove/footerabove";
 
 export default function About(){
 
@@ -76,6 +77,7 @@ export default function About(){
                     <h2><FontAwesomeIcon icon={faMedal} color="gold" className={s.icon}></FontAwesomeIcon>Our Vision</h2><p>To be the leading provider of security and labour solutions, recognized for our unwavering commitment to quality, innovation, and client satisfaction. We envision a future where businesses can focus on their core operations, knowing their security and staffing needs are in capable hands.</p>
                 </div>
             </div>
+            <FooterAbove head="Ready to Work With Us?" subhead="Experience the SecureLabour Solutions difference. Contact us today to discuss your needs." btn="Get Started Today" />
         </>
     )
 }
