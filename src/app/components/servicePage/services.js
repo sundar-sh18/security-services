@@ -4,6 +4,7 @@ import style from './services.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link';
+import FooterAbove from '../footerAbove/footerabove';
 
 export default function Services(){
 
@@ -58,13 +59,8 @@ export default function Services(){
                     
                 </div>
             </div>
-            <div className={style.customSolution}>
-                <h1>Need a Custom Solution?</h1>
-                <h4>Contact us to discuss your specific requirements and get a personalized quote.</h4>
-                <div className="btns">
-                    <button style={{backgroundColor:"var(--primary)", color: "var(--font-color)"}}><Link href="/contact">Get Custom Quote<FontAwesomeIcon icon={faArrowRight} className='arrow' /></Link></button>
-                </div>
-            </div>
+            <FooterAbove head="Need a Custom Solution?" subhead="Contact us to discuss your specific requirements and get a personalized quote." btn="Get Custom Quote"/>
+            
         </>
     )
 }
