@@ -92,22 +92,3 @@
     margin-top: 10px;
 }
 
-.customSolution{
-    background-color: var(--secondary);
-    color: var(--primary);
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.customSolution h1{
-    color: var(--primary);
-}
-
-.btns button{
-    background-color: var(--primary);
-    color: var(--font-color);
-    padding: 10px ;
-}
