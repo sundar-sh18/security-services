@@ -1,0 +1,13 @@
+.contactPageContainer{
+    text-align: center;
+   height: 40vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(150Deg, #edf5ff,#fffcf5);
+}
+
+.contactPageContainer p{
+ margin-top: 10px;
+}
