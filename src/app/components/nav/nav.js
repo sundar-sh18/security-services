@@ -28,7 +28,7 @@ export default function Nav(){
                     </li>
                 </div>
                 <div className="quote">
-                    <Link href="/pricing">get Quote</Link>
+                    <Link href="/contact">get Quote</Link>
                 </div>
             </nav>
         </>
