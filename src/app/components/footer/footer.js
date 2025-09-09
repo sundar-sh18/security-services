@@ -36,7 +36,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={style.line}></div>
-                <h6>© 2024 SecureLabour Solutions. All rights reserved.</h6>
+                <h6>© 2025 SecureLabour Solutions. All rights reserved.</h6>
             </footer>
         </>
     )
