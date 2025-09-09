@@ -14,6 +14,7 @@
 
 .footerTop h3{
     font-size: 1.2rem;
+    text-wrap: nowrap;
 }
 
 
@@ -30,11 +31,11 @@
 
 
 
-.companyInfo .ph,.mail, .address{
+.ph,.mail, .address{
     margin-bottom: 10px;
 }
 
-.companyInfo .faIconsFooter{
+.faIconsFooter{
     margin-right: 10px;
     font-size: 20px;
 }
